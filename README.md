@@ -2,11 +2,15 @@
 - Built using bootstrap, composer, php 7, and laravel 5.4.
 - Ensure that composer, php7 are installed
 - Clone the repository to your computer
+- Run the following commands from the console:
+    - composer install
+    - .env.example to .env 
+    - php artisan key:generate 
     
 # Usage
-- Navigate to the project directory in your console/terminal
-- Run composer install/update
+To view the site:
 - If not using docker or a VM run:  php artisan serve
+- Otherwise use the ip/port that you have set up
 
 # Notes
 - Uses a package that I specifically built to validate numbers based on the Lumen Algorithm 
