@@ -4,7 +4,7 @@
 - Clone the repository to your computer
 - Run the following commands from the console:
     - composer install
-    - .env.example to .env 
+    - cp .env.example .env 
     - php artisan key:generate 
     
 # Usage
